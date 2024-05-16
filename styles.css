@@ -1,0 +1,83 @@
+body {
+    background-color: #fce4ec; /* rosa claro */
+    color: #333; /* cor do texto */
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    border: 5px solid #00FFFF; /* borda em azul ciano */
+}
+
+header {
+    background-color: #fff; /* fundo do cabeçalho */
+    padding: 20px;
+    border-bottom: 2px solid #00FFFF; /* borda inferior em azul ciano */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #00FFFF; /* cor do texto ao passar o mouse */
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+section h2 {
+    color: #333;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #00FFFF; /* cor do botão */
+    color: #fff; /* cor do texto do botão */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #007d99; /* cor do botão ao passar o mouse */
+}
